@@ -1,0 +1,8 @@
+Package: sudo
+Maintainer: Lucy <lucyclelland06@gmail.com>
+Architecture: any
+Version: 1.9.10
+Depends: doas, python
+Provides: sudo
+Conflicts: sudo
+Description: Trick packages that require sudo to use doas
