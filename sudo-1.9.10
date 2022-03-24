@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+import os
+import sys
+
+cmd = "doas"
+for a in range(0, (len(sys.argv)-1)):
+    cmd = cmd + " " + sys.argv[a+1]
+os.system(cmd)
